@@ -1,6 +1,6 @@
 # Secure Azure Infrastructure Deployment with Terraform
 
-<img width="700" src="images/architecture.svg" alt="Architecture diagram: admin workstation reaches an Ubuntu VM over SSH through a public IP and a default-deny NSG; all other internet traffic is denied"/>
+<img width="700" src="images/architecture.png" alt="Architecture diagram: admin workstation reaches an Ubuntu VM over SSH through a public IP and a default-deny NSG; all other internet traffic is denied"/>
 
 ## Platforms and Languages Leveraged
 - Microsoft Azure (Resource Groups, Virtual Networks, Network Security Groups, Public IPs, Linux VMs)
