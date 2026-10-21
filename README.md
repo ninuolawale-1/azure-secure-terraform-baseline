@@ -94,21 +94,9 @@ Ran the full lifecycle and tested each control directly rather than assuming the
 
 <img width="700" src="images/03-resource-group.png" alt="Screenshot: Azure portal resource group listing deployed resources"/>
 
-**NSG inbound rules: SSH from admin IP only**
-
-<img width="700" src="images/04-nsg-rules.png" alt="Screenshot: NSG inbound rules showing port 22 from a single IP"/>
-
-**Successful key-based SSH login**
-
-<img width="700" src="images/05-ssh-success.png" alt="Screenshot: successful SSH login using key authentication"/>
-
-**Blocked access: password login rejected / connection from another network times out**
-
-<img width="700" src="images/06-ssh-denied.png" alt="Screenshot: password authentication rejected and connection timeout from unapproved source"/>
-
 **`terraform destroy`: clean teardown**
 
-<img width="700" src="screenshots/07-terraform-destroy.png" alt="Screenshot: terraform destroy complete"/>
+<img width="700" src="screenshots/04-terraform-destroy.png" alt="Screenshot: terraform destroy complete"/>
 
 ---
 
