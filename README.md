@@ -82,21 +82,9 @@ Added a `local-exec` provisioner that runs `mac-ssh-script.tpl` after the VM is 
 
 Ran the full lifecycle and tested each control directly rather than assuming the code worked as written.
 
-**`terraform plan`: resources to be created**
-
-<img width="700" src="images/01-terraform-plan.png" alt="Screenshot: terraform plan output"/>
-
-**`terraform apply`: deployment complete, public IP output**
-
-<img width="700" src="images/02-terraform-apply.png" alt="Screenshot: terraform apply complete with public IP output"/>
-
 **Resource group in the Azure portal**
 
 <img width="700" src="images/03-resource-group.png" alt="Screenshot: Azure portal resource group listing deployed resources"/>
-
-**`terraform destroy`: clean teardown**
-
-<img width="700" src="screenshots/04-terraform-destroy.png" alt="Screenshot: terraform destroy complete"/>
 
 ---
 
