@@ -1,0 +1,16 @@
+# Terraform local state and plans (state can contain secrets)
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.terraform/
+.terraform.lock.hcl.bak
+
+# Variable files with real values
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Keys
+*.pem
+*.key
