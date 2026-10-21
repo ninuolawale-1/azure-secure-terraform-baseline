@@ -84,27 +84,27 @@ Ran the full lifecycle and tested each control directly rather than assuming the
 
 **`terraform plan`: resources to be created**
 
-<img width="700" src="screenshots/01-terraform-plan.png" alt="Screenshot: terraform plan output"/>
+<img width="700" src="images/01-terraform-plan.png" alt="Screenshot: terraform plan output"/>
 
 **`terraform apply`: deployment complete, public IP output**
 
-<img width="700" src="screenshots/02-terraform-apply.png" alt="Screenshot: terraform apply complete with public IP output"/>
+<img width="700" src="images/02-terraform-apply.png" alt="Screenshot: terraform apply complete with public IP output"/>
 
 **Resource group in the Azure portal**
 
-<img width="700" src="screenshots/03-resource-group.png" alt="Screenshot: Azure portal resource group listing deployed resources"/>
+<img width="700" src="images/03-resource-group.png" alt="Screenshot: Azure portal resource group listing deployed resources"/>
 
 **NSG inbound rules: SSH from admin IP only**
 
-<img width="700" src="screenshots/04-nsg-rules.png" alt="Screenshot: NSG inbound rules showing port 22 from a single IP"/>
+<img width="700" src="images/04-nsg-rules.png" alt="Screenshot: NSG inbound rules showing port 22 from a single IP"/>
 
 **Successful key-based SSH login**
 
-<img width="700" src="screenshots/05-ssh-success.png" alt="Screenshot: successful SSH login using key authentication"/>
+<img width="700" src="images/05-ssh-success.png" alt="Screenshot: successful SSH login using key authentication"/>
 
 **Blocked access: password login rejected / connection from another network times out**
 
-<img width="700" src="screenshots/06-ssh-denied.png" alt="Screenshot: password authentication rejected and connection timeout from unapproved source"/>
+<img width="700" src="images/06-ssh-denied.png" alt="Screenshot: password authentication rejected and connection timeout from unapproved source"/>
 
 **`terraform destroy`: clean teardown**
 
